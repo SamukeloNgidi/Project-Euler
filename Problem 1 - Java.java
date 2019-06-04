@@ -2,7 +2,7 @@ public class Class1 {
     public static void main(String [] args){
         int sum = 0;
 
-        for (int i= 1; i<10; i++){
+        for (int i= 1; i<10; i++){ //1000
            if(i%5==0 || i%3==0){
                System.out.println(i);
               sum+=i;
